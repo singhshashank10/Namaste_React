@@ -1,0 +1,16 @@
+# Namaste_React
+Learning react from the scratch, by  following online tutorials of Akshay Saini
+
+** 1st commit  (first class)
+
+    -In first Commit, Reactis injected in the HTML file through Cdn link, & a new react element of heading1, heading2, inside a div with id container is rendenred in the DOM.
+
+** 2nd commit  (second class- Igniting our App)
+
+    - installed NPM using command "npm init" => creates pakage.json.
+    - installed parcel(a bundeler), using "npm install -d parcel" => creates pakage-lock.json.
+    - installed react using, "npm install react".
+    - installed react-dom using, "npm install react-dom".
+    - ignite our app using, npx parcel entry Point i.e, "npx parcel index.html".
+    - Remove the CDN link and import the react & react-dom file in js by specifing the "type = module" in script tag.
+    - 
