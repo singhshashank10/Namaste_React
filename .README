@@ -14,4 +14,17 @@ Learning react from the scratch, by  following online tutorials of Akshay Saini
     - installed react-dom using, "npm install react-dom".
     - ignite our app using, npx parcel entry Point i.e, "npx parcel index.html".
     - Remove the CDN link and import the react & react-dom file in js by specifing the "type = module" in script tag.
-    - 
+
+** 3rd Commit (Assignment Done)
+
+
+** 4th Commit {Assignment-2 (igniting our app) Done}
+
+
+** 5th Commit ()
+
+    - Add script, start = parcel index.html, helps us to use "npm start" or "npm run" insted "npx parcel index.html" 
+    - We will use jsx insted of React.createElement because it makes code messy.
+    - Functional Component 
+    - Composition component
+    
