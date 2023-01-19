@@ -31,4 +31,4 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 //passsing a react element inside the root
 
-root.render(container)
+root.render(container);
