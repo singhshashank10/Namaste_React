@@ -1,64 +1,22 @@
-
 import React from "react";
 import ReactDOM from "react-dom/client";
-/* 
-    - JSX => thid is html like syntax in js
 
-    - React.createElement => Object => HTML (DOM)
+const header1 = (<h1>Welcome to Namastey React!!</h1>);
+const header2 = (<h2> By:- Shashank Singh</h2>);
+const header3 = (<h3>Namastey World this is the front end world and we are on the journey to learn React js v.18</h3>);
 
-    - JSX => React.createElement => Object => HTML (DOM) , This is done by BABEL
-
-    Functional Component => A normal js function returning a peice of jsx code or react element (name start with capital letter)
- */
-
-//React Element
-const heading1 = (
-    <h1 id="title" key="h1">
-        This is a JSX heading
-    </h1>
-)
-
-//Functional Component
-const Heading = function () {
+const Header = () => {
     return (
-        <div>
-            <h2> Calling it by tag</h2>
-            <p> This is to explain how to call a functional component in the function </p>
-        </div>
-    )
-};
-
-
-//Functional Component
-const Heading2 = () => {
-    return (
-        <div>
-            <h2>Calling it by curly braces </h2>
-            <p>This is to explain the functional component can be  called inside another functional componentlike a normal js function inside a curly braces "{ }" </p>
+        <div className="title">
+            <p>{header1}</p>
+            <p> {header2}</p>
+            <p>{header3}</p>
         </div>
     )
 }
 
-
-// in Jsx we can write a normal js code  in side {}; {any js code}
-// Component Composition => use a component inside the component 
-const FunComp = () => {
-    return (
-        <div>
-            {heading1}
-            {Heading2()}
-            <Heading />
-            <h2 key="h1FunComp" id="funComp">
-                Namaste React a valid functional component
-            </h2>
-        </div>
-    )
-}
+// const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-//passsing a react element inside the root
-
-root.render(<FunComp />)
-
-
+root.render(<Header />)
