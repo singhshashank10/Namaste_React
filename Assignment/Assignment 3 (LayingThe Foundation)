@@ -1,0 +1,18 @@
+Q1* What is JSX?
+
+    - A syntax extention to js which looks like an html tags, but have full power as of js. It use to dtructure the Dom or html
+
+
+Q2* Super powers of JSX.
+
+    - In jsx we can wrap any piece of JS codeinside {}
+    - JSXis an expression, means after compilation jsx become normal js so, we can use if-else condition and attach different loops to it.
+    - JSX prevents injection attacks (safe).
+    - JSX can use different child elements inside it.
+
+
+
+Q3* Use of type attribute in script tag. What else can we use there?
+
+    -this type attribute tells the type of script. 
+    - the type may be default or "module"
