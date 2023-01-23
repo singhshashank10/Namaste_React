@@ -1,21 +1,47 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const header1 = (<h1>Welcome to Namastey React!!</h1>);
-const header2 = (<h2> By:- Shashank Singh</h2>);
-const header3 = (<h3>Namastey World this is the front end world and we are on the journey to learn React js v.18</h3>);
 
-const Header = () => {
+const SearchBar = () => {
+    return (<div className="searchBar">
+        <input className="searchInput" placeholder="Search here">
+        </input>
+        <button className="searchBtn">Click to search</button>
+    </div>)
+}
+const Img = () => {
+
     return (
-        <div className="title">
-            <p>{header1}</p>
-            <p> {header2}</p>
-            <p>{header3}</p>
+        <div className="logo">
+            <a href="/">
+                <img className="logoImg"
+                    src="https://cdn.dribbble.com/users/1139587/screenshots/16361973/media/513e2a0974f1173d206fcc7b28dea6ad.png"
+                />
+            </a>
         </div>
     )
 }
 
-// const root = ReactDOM.createRoot(document.getElementById("root"));
+const UserIcon = () => {
+    return (
+        <div className="icon">
+            <a href="/">
+                <img className="iconImg" src="https://as2.ftcdn.net/v2/jpg/02/29/75/83/1000_F_229758328_7x8jwCwjtBMmC6rgFzLFhZoEpLobB6L8.jpg" alt="user icons">
+                </img>
+            </a>
+        </div>
+    )
+}
+
+const Header = () => {
+    return (
+        <div className="title">
+            <Img />
+            <SearchBar />
+            <UserIcon />
+        </div>
+    )
+}
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
