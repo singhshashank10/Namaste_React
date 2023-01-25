@@ -1,0 +1,28 @@
+Q1* Difference b/wan
+
+    (i) Named export=>
+    -  This is one of the method to export any function or piece of code by  just writing 'export' before the name of the variabl/function that need to be exported.
+    - While importing a named export, after writing 'import' we must put the name of the exported variable/function inside a curly braces & then the address of the file where it is exported.
+
+    (ii) Default Export  =>
+    - This is anathoer way of exporting any function or piece of code by writing 'export default <name>' in the  file.
+    - To import we just have to write  ' import <ANY-NAME> "address of file" '
+    - Unlike Named Export here, we dont have to use curly bracesto write the name of the elment.
+    - We can use any name to import the default export, into the file, provided it has to be used inside the imported file with that name only.
+    
+    (iii) * as export =>
+    - This will export the complete data of the file into an object.
+
+
+
+Q2* What is importance of config.js file?
+
+    -config.js or constants.js, these are the files that stores some hard-coded or some constant values that canbe used in multiple places inside multiple components.
+        - By collecting  all our constants into one place makes our code more maintainable, readeable and testable
+        - By doing so, we can also use it multiple places,or we can re-use it.
+
+
+
+Q3* What are React Hooks?
+
+    - React Hooks are just a normal function provided to us by react liberary to solve or perform a specific task. 
