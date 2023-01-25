@@ -2212,7 +2212,7 @@ const RestaurantCards = ({ name, cloudinaryImageId, cuisines, avgRating }) => {
             </img>
             <div className="cardDetails">
                 <h2> {name}</h2>
-                <p>{cuisines}</p>
+                <p>{cuisines.join(', ')}</p>
                 <span>{avgRating}★</span>
             </div>
         </div>

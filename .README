@@ -28,3 +28,16 @@ Learning react from the scratch, by  following online tutorials of Akshay Saini
     - Functional Component 
     - Composition component
     
+*
+*
+*
+** 9th commit (Lecture-04, built front page with swiggy api data)
+
+    -Learn About React.Fragment = <></>
+    - Learn about props => Properties (it is object) => Object that is passed as an parameter in functional or class base component
+    - Learn about Virtual DOM (Representation of actual DOM)
+    - learn about Reconciliation procees (Virtual DOM helps => diff algo => Reconciliation)
+    - Learn Config-Driven UI
+    - made Dynamic Cards for retaurant that have data of swiggy API
+    - React fiber comes with new diff algo that makes react more faster
+    -

@@ -1,0 +1,74 @@
+Q1* Is Jsx & ES6 mandatory in using react?
+
+    - JSx -> No, Jsx is not mandatory for React. We can use react without JSX. JSX is just introduce to make our codeing, readabilty easy.We can use React.createElemennt("tag", "what needs inside tag") and we can create it by rendinring this element into our DOM. 
+    -ES6 -> It is also not mandatory in react.
+
+
+
+Q2* {Title}, <Title><Title/>, <Title/>?
+
+    - {Title} ->  It is use to include any React Element inside any JSX.
+    - <Title><Title/>, <Title/> -> These both are the method to introduce functional component in any Jsx code. The difference is that one has opening and closing tags, while other one is self closing tag.
+
+
+
+Q4* How to write comments in JSX?
+    
+    -In JSX we can write any pieceof JS inside the curly braces. So if have to write comment we can write in the same way as we do in JS but, inside the curly braces. 
+    for e.g. -> {// This is how we can write single line comment in jsx}
+                {
+                    /*
+                    This is how we write multi-line comments inside JSX
+                    */                
+                }
+
+
+
+Q5* What is <React.fragment><React.fragment/> & <></>??
+
+    - In JSX any peice of code that we write must/should have only one parent.
+    so, all the code of jsx must be wraped inside one parent tag. And if we donot need any tag to get appeared into our DOM, then we wrap our code between " <React.fragment><React.fragment/>" this tag. This tag also be written and reffer as blank tags "<> </>"
+
+
+
+Q6* What is Virtual DOM?
+
+    - It is the programming method in which an ideal or virtual, representation of UI is kept in the memory to help the reconciliation process.
+    
+    
+    
+Q7* What is Reconciliation in React?
+
+    - The VDOM get in sync with the the actual DOM, by a liberary like ReactDOM, this process is known as Reconciliation. That helps the diff-algo to detect the changes and update the DOM fast.
+
+
+
+Q8* What is React Fiber?
+
+    -React Fiber is the new conciliation engine after React-16. Its main work is to incremental rendinring of the virtual DOM.
+
+
+
+Q9* Why and when do we need keys in React?
+
+    -The React identify the DOM-elements through its keys,which is unique identifier. So, to make the work smoother for react we need to provide key so that it can identify the exact one to render it, rather than to render the whole Dom-tree.
+
+
+
+Q10* Can we use index as an key?
+
+    -No,it is not advisable to use indexes as a key. Because the key is the unique property through which React identifies the node or tag. but, indexes may change if we push, pop, insert anything from the array, that will change the indexes of each element. 
+    -> =====>   "Let me explain, a key is the only thing React uses to identify DOM elements. What happens if you push an item to the list or remove something in the middle? If the key is same as before React assumes that the DOM element represents the same component as before. But that is no longer true."
+
+
+
+Q11* What is props in React & its ways?
+
+    -props or properties is way of communication between 2 different component in React. In react any parent component can pass any peiceof innformation to child component through props. 
+    Basicaly props is nothing but a fancy way of saying a passing an parameter,hhow we pass an paramenter to a function. props is  a object.
+
+
+
+Q12* What is config driven UI?
+
+    - Config driven UI is user interface that can be manupulated or rendered differently for different data input or configuration.
