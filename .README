@@ -1,12 +1,12 @@
 # Namaste_React
 
-Learning react from the scratch, by  following online tutorials of Akshay Saini
+Learning react from the scratch, by following online tutorials of Akshay Saini
 
-** 1st commit  (first class)
+\*\* 1st commit (first class)
 
     -In first Commit, Reactis injected in the HTML file through Cdn link, & a new react element of heading1, heading2, inside a div with id container is rendenred in the DOM.
 
-** 2nd commit  (second class- Igniting our App)
+\*\* 2nd commit (second class- Igniting our App)
 
     - installed NPM using command "npm init" => creates pakage.json.
     - installed parcel(a bundeler), using "npm install -d parcel" => creates pakage-lock.json.
@@ -15,29 +15,34 @@ Learning react from the scratch, by  following online tutorials of Akshay Saini
     - ignite our app using, npx parcel entry Point i.e, "npx parcel index.html".
     - Remove the CDN link and import the react & react-dom file in js by specifing the "type = module" in script tag.
 
-** 3rd Commit (Assignment Done)
+\*\* 3rd Commit (Assignment Done)
 
+\*\* 4th Commit {Assignment-2 (igniting our app) Done}
 
-** 4th Commit {Assignment-2 (igniting our app) Done}
+\*\* 5th Commit ()
 
-
-** 5th Commit ()
-
-    - Add script, start = parcel index.html, helps us to use "npm start" or "npm run" insted "npx parcel index.html" 
+    - Add script, start = parcel index.html, helps us to use "npm start" or "npm run" insted "npx parcel index.html"
     - We will use jsx insted of React.createElement because it makes code messy.
-    - Functional Component 
+    - Functional Component
     - Composition component
-    
-*
-*
-*
-** 9th commit (Lecture-04, built front page with swiggy api data)
 
-    -Learn About React.Fragment = <></>
-    - Learn about props => Properties (it is object) => Object that is passed as an parameter in functional or class base component
-    - Learn about Virtual DOM (Representation of actual DOM)
-    - learn about Reconciliation procees (Virtual DOM helps => diff algo => Reconciliation)
-    - Learn Config-Driven UI
-    - made Dynamic Cards for retaurant that have data of swiggy API
-    - React fiber comes with new diff algo that makes react more faster
-    -
+\*\* 9th commit (Lecture-04, built front page with swiggy api data)
+
+        -Learn About React.Fragment = <></>
+        - Learn about props => Properties (it is object) => Object that is passed as an parameter in functional or class base component
+        - Learn about Virtual DOM (Representation of actual DOM)
+        - learn about Reconciliation procees (Virtual DOM helps => diff algo => Reconciliation)
+        - Learn Config-Driven UI
+        - made Dynamic Cards for retaurant that have data of swiggy API
+        - React fiber comes with new diff algo that makes react more faster
+        - <></> this is React.fragment this  is because always JSX takes oly one parent inside it so if we dont want to wrap inside a div then we use React.fragment
+
+\*\* 10th commit (Lecture-05, Hooks, state, useState, Search-bar in body component)
+
+        - Learn about "Default Import/ Export"
+        - Learn about "Named Import/ Export"
+        - Learn about "Reaact Variable' or "State-Variable"
+        - Learn about Hooks in React => Just a normal js function for  specific task/work
+        - Learn about how to make 2-way data-binding
+        - Made search bar ===> grab input in a state variable ==> attach filter for the search on click of the search button (still only search for first time)
+        -
