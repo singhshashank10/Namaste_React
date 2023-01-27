@@ -46,3 +46,16 @@ Learning react from the scratch, by following online tutorials of Akshay Saini
         - Learn about how to make 2-way data-binding
         - Made search bar ===> grab input in a state variable ==> attach filter for the search on click of the search button (still only search for first time)
         -
+
+\*\* 11th commit (Lecture-06, useEffect, live swiggy api, shimmer)
+
+        - Learn about "useEffect in Hook"
+        - Learn about dependancy
+                Array use, blank => only once,
+                Have some value => Render every time state of value chnages
+        - Learn athe ordeer => First render then useEffect
+        - Learn about "Conditional Rendering"
+        - Learn about "Micro-Service & Monolytth"
+        - Learn about "Shimmer UI"
+        - Make our page search-bar functional
+        -
