@@ -55,7 +55,7 @@ Learning react from the scratch, by following online tutorials of Akshay Saini
                 Have some value => Render every time state of value chnages
         - Learn athe ordeer => First render then useEffect
         - Learn about "Conditional Rendering"
-        - Learn about "Micro-Service & Monolytth"
+        - Learn about "Micro-Service & Monolith"
         - Learn about "Shimmer UI"
         - Make our page search-bar functional
         -

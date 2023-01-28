@@ -1,0 +1,85 @@
+Q1* What Micro Services?
+
+    - It is a architectural way or approch to develope a app, by distributing it ito small & different (indipendent) services, which communicate with each other through API. Each service have small self-contained team.
+
+    
+Q2* What is monolith Architecture?
+
+    - It means to bind into a single structure tightly, here the app is combied into a single structure and deploy that code or structure on web servers.
+
+
+Q3* Difference b/w Monolith, micro Service architecture.
+
+    Monolith Architecture 
+        :- It is built on one large system & usually one code-base
+                            - Not easy to scalable on demand
+                            - It has shared DataBase
+                            - Large system makes IDE slow & built time increase
+                            - Extremely difficult to change the tech., Framework, language  as every thing is tightly coupled & are dependent on each other
+    - Micro Service 
+        :- It is built on small independent module based on functionality
+        - Easy to scalable on demand
+        - Each project module may have seperate DataBase
+        - Each project is small and independent, hence take less time to build and in development.
+        - Easy to change laguage, tech & Framework as each module is independent 
+
+
+Q4* Why do we need useEffect Hook ?
+    
+    - We pass a call-back function and dependancy array as an argument in useEffect Hook.
+    - It is hook that tells the React that it has to do some work after updating the DOM.
+    - This call back function is executed after updating the DOM.
+    - We can also pass some state in the dependecy array that makes the execution of the Callback function (or effect) at every state change.
+    - By default this Effect is executed after every render.
+    - By passing an empty dependecy, it  exectue the Effet only once after the First render.
+    - This is the best place to fetch the data from API.
+
+
+Q5* What is optional chaning (?.) ?
+
+    - optional chaning(?.), it is done while accessing object's property or call a function.
+    - if the value of the property is undefined or null it returns an undefined insted of throwing an error
+    - optional chaning is a good prctice to be done in Javascript
+
+
+Q6* What is Shimmer UI?
+
+    - This UI resembeles the actual UI with data, shimmer UI  is to be rendered untill the real data comes in and the DOM gets updated. The main aim of this UI to make a psychological impact to the user that the data is loaded quickly, rather than loading a data suddenly on a blank page.
+
+
+Q7* What is difference between JS statement & JS expression?
+
+    - JS Statement:- This is group of expression or statement that are design to do task or action
+    - JS Expression:- This is word or  group of word that have a value.
+
+Q8* What is a conditional rendering? Explain with expample.
+
+    - As the name suggest it is just a way to render on some condition. That means at any perticular time at for any give state or  codition we want to render some component on our UI, then we use conditional rendering.
+    For E.g => if we want to show a dialog at the time when user is offline. So we can make a Offline component and import in out AppLayout component which have a function that return a boolean, true when offline & false when online & use it like.
+                          const AppLayout = () => {
+                            return (isOffline()) ? < Offline/> : <render what-ever do you want to show>
+                          }
+                This will show Offline component at the time of render if user is offline else show the ui. 
+        This is known as Conditional Rendering.
+
+
+Q10* What is CORS?
+
+    -It stands for Cross Origin Resource Sharing, this allows browser to share the resources server and the origin, that has different domain.
+
+
+Q11* What is async and await? 
+    - Example 
+            async function fun1 (){
+                const data = await getApiData();
+                return data;
+            }
+    - Here in the function will treat the await as an .then in promise. The function will suspend it further procedure of compilation untill the vsriable gets the resources or any data from getApiData, here in the above example, or in other word this function will only compile further only if the  promise that is returned by the await is either resolved or rejected.
+    - This will keep the exection of function at hold till the promise is in pending state.
+
+
+Q12* What is the use "cosnt json = await.data.json()", in "getRestaurants"?
+
+    -In 'getRestaurants' we fetched the data from the swiggy API, and store the resource in the data and this is done in Asynchronously. So, we use await here to fill the apiresource inside the data. After that we use .json(), inbuilt funcion.
+    ->json(), an in built-function, that returns a promise, which resolved by parse the value in JSON & return it. 
+    -> Although the name is json(), but it will return the body or data in JavaScript object.
