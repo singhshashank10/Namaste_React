@@ -47,7 +47,7 @@ Learning react from the scratch, by following online tutorials of Akshay Saini
         - Made search bar ===> grab input in a state variable ==> attach filter for the search on click of the search button (still only search for first time)
         -
 
-\*\* 11th commit (Lecture-06, useEffect, live swiggy api, shimmer)
+\*\* 11th & 12 commit (Lecture-06, useEffect, live swiggy api, shimmer & Assignment Done)
 
         - Learn about "useEffect in Hook"
         - Learn about dependancy
@@ -57,5 +57,23 @@ Learning react from the scratch, by following online tutorials of Akshay Saini
         - Learn about "Conditional Rendering"
         - Learn about "Micro-Service & Monolith"
         - Learn about "Shimmer UI"
+        - Learn about CORS
+        - Learn about optional chaining (?.)
         - Make our page search-bar functional
         -
+
+\*\* 13 Commit (Lecture - 07 Finding the Path)
+
+        - Learn about React-Router-dom;
+        - Learn to use createBrowserRouter() (it takes) => A array of object => path: ,  element: , ;
+        - Learn to use Error Elemrnt, <RouterProvider>, Outlet & Link
+        - Learn to use Hooks from react-router-dom => useParams(); useRouteError();
+        - Learn about Client site routing & Server Site routing;
+        - Learn avout Dynamic Routing;
+        - Learn about benifit of using Components, as it will help us in:=
+                - Modular
+                - Maintainable
+                - Reuseable
+                - Readable
+                - Testable
+

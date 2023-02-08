@@ -1,0 +1,28 @@
+Q1* what are the various ways to add images in our app?
+
+    -There are two methods for adding images in our app
+        (i) Online Image -  We can add any online image using <img/> tag and with an attribute src = "", which contains the link of the online image.
+
+        Generaly we use CDN to upload the image and fetch it from the cdn link. 
+        (ii) Offline Image - We can add image in our app just by keeping it inside any folder inside our app. Generally we use asset folder to store the image inside our app. We use <img/> tag and in "src=" attribute we  provide the path of the image inside our computer.
+
+
+Q2* What would happen if we do consolo.log of 'useState()'?
+
+    -
+
+
+Q3* How will useEffect will behave if we do not add any dependancy array?
+
+    -The useEffect will be called after every render 
+
+
+Q4* What is SPA?
+
+    -SPA= Single Page Application, in this the page is  brake down into different component and the components are re-rendered insted of the whole page.
+
+Q5* What is the difference b/w  client side routing & server side routing?
+
+    - Client Side Routing => In this the page relodes or the new component is shown in the page, without fetcing any data from the server or the route changes without reloding the whole page.
+
+    - Server side Routing => In this reouting the page is reloded or the rout is changes by fetching the data from the server.

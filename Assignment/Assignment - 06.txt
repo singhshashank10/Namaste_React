@@ -52,6 +52,8 @@ Q7* What is difference between JS statement & JS expression?
     - JS Statement:- This is group of expression or statement that are design to do task or action
     - JS Expression:- This is word or  group of word that have a value.
 
+
+
 Q8* What is a conditional rendering? Explain with expample.
 
     - As the name suggest it is just a way to render on some condition. That means at any perticular time at for any give state or  codition we want to render some component on our UI, then we use conditional rendering.

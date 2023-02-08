@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import { Link } from "react-router-dom";
 const Title = () => {
   return (
     <a href="/">
@@ -18,10 +18,18 @@ const Header = () => {
       <Title />
       <div className="navBar">
         <ul>
-          <li>HOME</li>
-          <li>CONTACT</li>
-          <li>ANOUT US</li>
-          <li>CART</li>
+          <li>
+            <Link to="/">HOME</Link>
+          </li>
+          <li>
+            <Link to="/contact">CONTACT</Link>
+          </li>
+          <li>
+            <Link to="/about">ABOUT US</Link>
+          </li>
+          <li>
+            <Link to="/">CART</Link>
+          </li>
         </ul>
       </div>
       <div>
