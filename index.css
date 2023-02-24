@@ -35,13 +35,17 @@ body {
 .card {
   display: flex;
   flex-direction: column;
-  border: 2px solid #f3000069;
+  border: 2px solid hsla(0, 100%, 48%, 0.412);
   border-radius: 1rem;
   width: 20rem;
   height: 22rem;
   margin: 1rem;
   padding: 0;
   overflow: hidden;
+}
+
+.card :hover {
+  opacity: 0.9;
 }
 
 .card > img {
@@ -60,6 +64,7 @@ body {
 }
 
 /* BODY FUNCTIONAL COMPONENT */
+
 .body {
   display: flex;
   flex-wrap: wrap;
@@ -73,10 +78,12 @@ body {
   color: black;
 }
 
+/* SHIMMER COMPPONENT */
+
 .shimmer-outer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .shimmer-card {
@@ -88,7 +95,6 @@ body {
   height: 22rem;
   margin: 2rem auto;
   padding: 0;
-  overflow: hidden;
 }
 
 /* Restaurant Menu functional component*/

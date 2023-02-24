@@ -10,12 +10,14 @@ const Shimmer = () => {
   );
 };
 
-export default Shimmer;
-
-<div className="shimmer-card">
+{
+  /* <div className="shimmer-card">
   {Array(10)
     .fill("")
     .map((e, index) => (
       <div key={index} className="cardDetails"></div>
     ))}
-</div>;
+</div>; */
+}
+
+export default Shimmer;

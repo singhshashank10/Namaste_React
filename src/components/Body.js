@@ -7,7 +7,7 @@ function filterData(searchText, allRestaurants) {
   const filterData = allRestaurants.filter((restaurant) => {
     return restaurant?.data?.name
       ?.toLowerCase()
-      ?.includes(searchText.toLowerCase());
+      ?.includes(searchText?.toLowerCase());
   });
   return filterData;
 }
@@ -26,7 +26,6 @@ const Body = () => {
       "https://www.swiggy.com/dapi/restaurants/list/v5?lat=26.93704&lng=80.936499&page_type=DESKTOP_WEB_LISTING"
     );
     const json = await data.json();
-    // console.log(json);
     setAllRestaurants(json?.data?.cards[2]?.data?.data?.cards);
     setFilteredRestaurants(json?.data?.cards[2]?.data?.data?.cards);
   }
@@ -40,7 +39,7 @@ const Body = () => {
           className="searchInput"
           placeholder="Search Here"
           onChange={(e) => {
-            setSearchText(e.target.value);
+            setSearchText(e?.target?.value);
           }}
         ></input>
         <button
